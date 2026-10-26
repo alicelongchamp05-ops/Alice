@@ -1,0 +1,70 @@
+/* this is a CSS comment */
+
+/* here, we change some of the default styles on our main document elements */
+html, body {
+	margin: 0;
+	background-color: rgb(9, 255, 0);
+}
+
+@media(max-width: 767px) {
+	html, body {
+		background-color: #ff0000;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 100px;
+		
+	}
+}
+
+body {
+	padding: 20px;
+	color: #cc00ff;
+	font-size: x-large;
+
+}
+
+.silly-text {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, ;
+	color: #ff0000;
+	font-size: 100px;
+	padding: 200px;
+	text-wrap: balance;
+	background-color:  #d000ff;
+
+}
+
+blop {
+color: #00eeff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+background-color:  #d000ff;
+padding: 50px;
+
+}
+
+.centre-text {
+	text-align: right;
+
+}
+
+h1 {
+	left: 100px;
+	top: 50 px;
+	color:rgb(221, 255, 0);
+		
+
+}
+
+.tomate {
+top: 50px;	
+right: 10px;
+border-radius: 60px;
+}
+
+@media(min-width: 768px) {
+  .img {
+    width: 40%;
+  }
+  .tomate{
+    width: 40%;
+  }
+}
